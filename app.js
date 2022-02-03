@@ -1,7 +1,9 @@
-const userName = prompt ("Prego, inserisci pure il tuo nome");
+const userName = prompt ("Prego, inserisca pure il suo nome");
 
-const userSurname = prompt ("Adesso gentilmente, inserisci il tuo cognome");
+const userSurname = prompt ("Adesso gentilmente, inserisca il suo cognome");
 
-const userColor = prompt ("Dimmi anche qual é il tuo colore preferito");
+const userColor = prompt ("Mi dica anche qual é il suo colore preferito");
 
-const userPsw = (userName) + (userSurname) + (userColor) + 21;
+const userPsw = (userName) + (userSurname) + (userColor) + "21";
+
+document.getElementById("password").innerHTML += (userPsw);
